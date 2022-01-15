@@ -41,7 +41,7 @@ function vikingJump() {
 }
 
 checkForCollisions();
-// startGame();
+startGame();
 
 jumpButton.addEventListener('click', () => {
     vikingJump();
